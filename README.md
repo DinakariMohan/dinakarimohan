@@ -26,7 +26,7 @@ I am actively seeking **Supply Chain Analyst**, **Demand / Supply Planner**, or 
 
 ---
 
-#### 🔗 [Demand and Supply Projection](https://github.com/DinakariMohan/supply-chain-pipeline)
+#### 🔗 [Demand and Supply Projection](https://github.com/DinakariMohan/demand-supply-projection-powerbi)
 
 After 8 years in global supply chain, I'm learning to build these reports myself, using synthetic data (no company data).
 
