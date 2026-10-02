@@ -34,6 +34,8 @@ What it does:
 - Compares demand with planned supply: Met on time, Met late or Not met
 - Shows bottlenecks by product, factory and period
 - Flags red or amber when Not met % or Met late % passes an agreed threshold
+
+
 - **Tools**: Power BI, SQL, Python, Excel
 - **Status**: Data model & SQL scripts complete; Power BI report in progress.
 
