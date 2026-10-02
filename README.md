@@ -26,34 +26,17 @@ I am actively seeking **Supply Chain Analyst**, **Demand / Supply Planner**, or 
 
 ---
 
-### 🛠 What I Am Working On Now
+#### 🔗 [Demand and Supply Projection](https://github.com/DinakariMohan/supply-chain-pipeline)
 
-#### 🔗 [Demand and Supply Projection (Semiconductor Supply Chain)](https://github.com/DinakariMohan/supply-chain-pipeline)
-An end-to-end analytics project featuring a star-schema data model for a semiconductor supply chain, built to support demand vs. supply, lead-time, yield, and capacity reporting. All data is synthetic; no employer or customer data is used.
+After 8 years in global supply chain, I'm learning to build these reports myself, using synthetic data (no company data).
 
-* **Data Model**:
-  - **8 Finished Goods**, each with a multi-level Bill of Materials (BOM): *Fabrication $\rightarrow$ Wafer Sort $\rightarrow$ Die Prep $\rightarrow$ Assembly $\rightarrow$ Test $\rightarrow$ Finished Goods*
-  - **Shared items** across products (e.g., one fabricated wafer feeding two finished goods)
-  - **8 process stages & 17 locations** (suppliers, fabs, assembly/test sites, regional warehouses)
-  - Long-format process parameters (yield, throughput time, cycle time, transit time, capacity, allocation) by item, stage, and location
-  - Demand tracked against finished goods; supply traced end-to-end through BOM and routing
-* **Analytics Supported**:
-  - **Fulfilment**: Met on time / Met late / Not met per demand line
-  - **Lead Time**: Planned vs. actual lead time by route and site
-  - **Yield & Capacity**: Cumulative yield tracking along production chains & seasonal bottleneck detection
-* **Tech Stack**: Python (`pandas`, `NumPy`), SQL Server (T-SQL), Power BI (DAX, Star Schema), Excel
+What it does:
+- Compares demand with planned supply: Met on time, Met late or Not met
+- Shows bottlenecks by product, factory and period
+- Flags red or amber when Not met % or Met late % passes an agreed threshold
+
+Tools: Power BI, SQL, Python, Excel 
 * **Status**: Data model & SQL scripts complete; Power BI report in progress.
-
----
-
-### 🧰 Technical Skills & Methodologies
-
-| Category | Skill Highlights |
-|---|---|
-| **Supply Chain Planning** | Demand Planning, Supply Planning, S&OP, Bill of Material (BOM) Analysis, Lead & Throughput Time Analysis, Yield Analysis, Capacity Planning, Inventory & OTIF Analysis |
-| **Data & Analytics** | Advanced SQL (T-SQL), Power BI (DAX, Data Modelling, Star Schema), Python (`pandas`, `NumPy`), Advanced Excel, Data Warehousing, Data Reconciliation & Root Cause Analysis |
-| **Enterprise & ERP Systems** | Blue Yonder ESP, SAP HANA, SAP BusinessObjects, SAP BW, SAP Data Services, Oracle EBS SCM, Oracle ASCP *(Working knowledge: SAP IBP, Snowflake, Azure, Teradata)* |
-| **Ways of Working** | Requirements Gathering (BRD/FRD), User Stories in JIRA, Agile/Scrum, Stakeholder Workshops, Process Mapping (BPMN, UML) |
 
 ---
 
